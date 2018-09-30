@@ -1,0 +1,5 @@
+# UNIX Commands
+
+1. Find all java files in the current directory
+  find . -type f -name "*.java" -print0 | sed '<line number>i <text>' filename
+ 
